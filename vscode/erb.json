@@ -1,0 +1,19 @@
+// erb snippet
+{
+  "link_to": {
+    "prefix": "lt",
+    "body": [
+      "<%= link_to  \"${text}\", ${path} %>"
+    ],
+    "description": "rails link_to"
+  },
+  "do": {
+    "prefix": "do",
+    "body": [
+      "do |${1:item}| %>",
+			"	<%=  %>",
+      "<% end"
+    ],
+    "description": "ruby block"
+  }
+}
