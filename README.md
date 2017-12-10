@@ -1,4 +1,5 @@
-This is NickWarm's dotfile settings.
+This is NickWarm's editor and dotfile settings.
 
 This poject contains
 - vscode setting
+
