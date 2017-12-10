@@ -1,0 +1,65 @@
+// 將您的按鍵組合放入此檔案中以覆寫預設值
+[
+  {
+    "key": "cmd+[Comma]",
+    "command": "workbench.action.openGlobalSettings"
+  },
+  {
+    "key": "ctrl+alt+cmd+[Comma]",
+    "command": "-workbench.action.openGlobalSettings"
+  },
+  {
+    "key": "cmd+k cmd+c",
+    "command": "editor.action.addCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+c",
+    "command": "-editor.action.addCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+u",
+    "command": "editor.action.removeCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+u",
+    "command": "-editor.action.removeCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+[Slash]",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+cmd+[Slash]",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+enter",
+    "command": "extension.aceJump"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "editor.action.selectAllMatches",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "key": "alt+enter",
+    "command": "-editor.action.selectAllMatches",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  { // 快速建立資料夾
+    "key": "shift+f",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  { // 快速建立檔案
+    "key": "shift+a",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  }
+]
