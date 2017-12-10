@@ -1,0 +1,63 @@
+// Ruby snippet
+{
+  "each": {
+    "prefix": "each",
+    "body": [
+      "each do |${1:item}|",
+			"	",
+      "end"
+    ],
+    "description": "each emulator"
+  },
+  "case when": {
+    "prefix": "case",
+    "body": [
+      "case",
+      "when",
+      "",
+      "when",
+      "",
+      "end"
+    ],
+    "description": "case ... when"
+  },
+  "do block": {
+    "prefix": "do",
+    "body": [
+      "do",
+      "",
+      "end"
+    ],
+    "description": "do block"
+  },
+  "elsif": {
+    "prefix": "elsif",
+    "body": [
+      "if ${1:true}",
+      "",
+      "elsif ${2:true}",
+      "",
+      "end"
+    ],
+    "description": "elsif"
+  },
+  // validation
+  "validates_presence_of": {
+    "prefix": "vpo",
+    "body": [
+      "validates_presence_of :${1:field}"
+    ]
+  },
+  "validates_length_of": {
+    "prefix": "vlo",
+    "body": [
+      "validates_length_of :${1:field}"
+    ]
+  },
+  "validates_uniqueness_of": {
+    "prefix": "vuo",
+    "body": [
+      "validates_uniqueness_of :${1:field}"
+    ]
+  }
+}
