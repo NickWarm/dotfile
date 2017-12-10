@@ -1,0 +1,24 @@
+// User setting 
+{
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.tabSize": 2,
+  "explorer.openEditors.visible": 0,
+  "workbench.editor.enablePreview": false,
+  // "emmet.showSuggestionsAsSnippets": true,
+  // "emmet.includeLanguages": {
+  //     "erb": "html"
+  // },
+  "editor.snippetSuggestions": "top",
+  "editor.renderLineHighlight": "line",
+  "editor.matchBrackets": false,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#220815",
+    "editor.selectionBackground": "#771835",
+    "editor.wordHighlightBackground": "#771835",
+    "editorCursor.foreground": "#F12360"
+  },
+  "editor.quickSuggestionsDelay": 1,
+  "files.insertFinalNewline": true,
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false
+}
