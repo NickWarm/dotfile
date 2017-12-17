@@ -14,9 +14,9 @@
     "body": [
       "case",
       "when",
-      "",
+      " ",
       "when",
-      "",
+      " ",
       "end"
     ],
     "description": "case ... when"
@@ -25,7 +25,7 @@
     "prefix": "do",
     "body": [
       "do",
-      "",
+      " ",
       "end"
     ],
     "description": "do block"
@@ -34,9 +34,9 @@
     "prefix": "elsif",
     "body": [
       "if ${1:true}",
-      "",
+      " ",
       "elsif ${2:true}",
-      "",
+      " ",
       "end"
     ],
     "description": "elsif"
